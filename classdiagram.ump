@@ -1,0 +1,42 @@
+{
+  brukernavn;
+  1 -- * Prosjekt;
+  }
+
+class Bedrift
+{
+  navn;
+  beskrivelse;
+  1 -- * Prosjekt;
+}
+
+class Brukegruppe
+{
+  gruppenavn;
+  1 -- * Bruker;
+}
+
+class Arrengement
+{
+  navn;
+  beskrivelse;
+  Date utgaar;
+  * -- 1 Stemmemetode;
+  }
+
+class Stemmemetode
+{
+  }
+
+class Studie
+{
+  navn;
+  beskrivelse;
+}
+
+class Kategori
+{
+  navn;
+  beskrivelse;
+  1 -- * Studie;
+}

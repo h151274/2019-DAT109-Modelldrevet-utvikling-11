@@ -2,6 +2,7 @@
 Oblig 4 
 
 UMPLE: 
+
 DEL 1 : Bli kjent med UMPLE 
 
 DEL 2: Bruk UMPLE

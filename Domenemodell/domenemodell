@@ -1,3 +1,26 @@
+class Prosjekt
+{
+  navn;
+  beskrivelse;
+  * -- 1 Studie;
+}
+
+class Arrangementdeltagelse
+{
+
+    * -- 1 Prosjekt;
+  * -- 1 Arrengement;
+  * -- * Stemme;
+}
+
+class Stemme
+{
+  epost;
+  int verdi;
+  Date tidspunkt;
+}
+
+class Bruker
 {
   brukernavn;
   1 -- * Prosjekt;
@@ -40,3 +63,4 @@ class Kategori
   beskrivelse;
   1 -- * Studie;
 }
+

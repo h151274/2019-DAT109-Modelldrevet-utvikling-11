@@ -1,0 +1,37 @@
+class EXPO {
+expo {
+    lagBruker { 
+      Bruker -> Brukerkonto;
+      Admin -> Adminbruker;
+      Gruppe -> Gruppekonto;
+      
+    }
+    Adminbruker {
+      Oppdatere -> lageEllerOppdatereEXPO;
+      seStatestikk -> statestikk;
+    }
+  statestikk { 
+    ferdig -> DONE; 
+  } 
+  
+    Gruppekonto {
+      LageStand -> Stand;
+      seStatestikk -> statestikk;
+    }
+  Stand { 
+    ferdig -> DONE; 
+  } 
+
+    Brukerkonto {
+      QR -> Stemme;
+    }
+  Stemme { 
+    ferdig -> DONE; 
+  } 
+  
+  lageEllerOppdatereEXPO { 
+    ferdig -> DONE;
+  } 
+
+}
+}

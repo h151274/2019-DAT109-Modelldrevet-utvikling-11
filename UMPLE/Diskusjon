@@ -1,1 +1,5 @@
-Koden som blir generert er ganske annerledes enn den vi har i prosjektet. Den inkluderer flere hjelpemetoder og kan se litt rotete ut i mange tilfeller. Dette kan føre til vanskeligheter med å forstå koden. 
+Koden som blir generert og koden fra prosjektet er relativt like. 
+De største forskjellene er bruken av boolean og toString metoden.
+Vi ser at den genererte koden har brukt boolean hyppigere enn oss, og at toString metoden er mer avansert. 
+
+Modellene er ganske like, men vi hadde ikke finite state machine. 

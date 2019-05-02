@@ -1,0 +1,6 @@
+<OperationModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="405" gr:y="190" id="mov1#opm1" name="vote">
+  <OperationUnits>
+    <InputCollectorUnit id="mov1#opm1#icu1" name="Input Collector" gr:x="30" gr:y="60"/>
+    <CreateUnit gr:x="290" gr:y="155" id="mov1#opm1#cru1" name="vote" entity="ent2"/>
+  </OperationUnits>
+</OperationModule>

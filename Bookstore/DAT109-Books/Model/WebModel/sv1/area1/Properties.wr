@@ -1,0 +1,10 @@
+<Area xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="165" gr:y="160" id="sv1#area1" name="Site" landmark="true" landmarks="sv1#area1#page3">
+  <OperationUnits>
+    <ModuleInstanceUnit gr:x="465" gr:y="390" id="sv1#area1#miu2" action="true" name="Update the quantities" moduleId="mov1#opm1">
+      <Link id="sv1#area1#miu2#ln5" name="Flow5" to="sv1#area1#page6" automaticCoupling="true" type="transport" validate="true"/>
+    </ModuleInstanceUnit>
+    <ModuleInstanceUnit gr:x="515" gr:y="540" id="sv1#area1#miu4" action="true" moduleId="mov1#opm2" linkOrder="sv1#area1#miu4#ln7">
+      <Link id="sv1#area1#miu4#ln7" name="Flow7" to="sv1#area1#page7" automaticCoupling="true" type="transport" validate="true"/>
+    </ModuleInstanceUnit>
+  </OperationUnits>
+</Area>

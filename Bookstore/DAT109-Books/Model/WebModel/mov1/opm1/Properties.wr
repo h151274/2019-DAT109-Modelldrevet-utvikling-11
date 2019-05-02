@@ -1,0 +1,12 @@
+<OperationModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="340" gr:y="240" id="mov1#opm1" name="Action 1">
+  <OperationUnits>
+    <InputCollectorUnit id="mov1#opm1#icu1" gr:x="30" gr:y="60">
+      <InputCollectorParameter id="mov1#opm1#icu1#icp1" name="qty"/>
+    </InputCollectorUnit>
+    <ModifyUnit gr:x="345" gr:y="130" id="mov1#opm1#mfu1" name="Update" entity="ent2">
+      <Selector id="mov1#opm1#mfu1#su2" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#opm1#mfu1#su2#kcond2" name="KeyCondition2" predicate="in" implied="false"/>
+      </Selector>
+    </ModifyUnit>
+  </OperationUnits>
+</OperationModule>

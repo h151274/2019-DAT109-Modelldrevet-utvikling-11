@@ -1,0 +1,12 @@
+<OperationModule xmlns:gr="http://www.webratio.com/2006/WebML/Graph" gr:x="275" gr:y="455" id="mov1#opm2" name="Clear">
+  <OperationUnits>
+    <InputCollectorUnit id="mov1#opm2#icu2" gr:x="30" gr:y="60">
+      <InputCollectorParameter id="mov1#opm2#icu2#icp3" name="Cart"/>
+    </InputCollectorUnit>
+    <DeleteUnit gr:x="265" gr:y="160" id="mov1#opm2#dlu1" name="Cart" entity="ent3">
+      <Selector id="mov1#opm2#dlu1#su3" defaultPolicy="fill" booleanOperator="and">
+        <KeyCondition id="mov1#opm2#dlu1#su3#kcond3" name="KeyCondition3" predicate="in" implied="false"/>
+      </Selector>
+    </DeleteUnit>
+  </OperationUnits>
+</OperationModule>

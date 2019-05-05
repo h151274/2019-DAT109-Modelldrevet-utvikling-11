@@ -13,3 +13,19 @@ DEL 2: Bruk UMPLE
 
 DEL 3: Krav til innlevering
 Punktene under DEL 2 (modeller, kode og diskusjonen) skal leveres under mappa UMPLE i gruppens Git repository.
+
+
+BOOKSTORE: 
+
+DEL 1: Bli kjent med IFML og WebRatio
+
+DEL 2: Lag applikasjonen Online Bookstore
+ 
+DEL 3: Krav til innlevering
+Hele WebRatio prosjektet skal dyttet opp på gruppens repository under mappen Bookstore
+
+EXPO APPLIKASJON: 
+
+For å løse denne oppgaven må du ha løst oppgave 1 og oppgave 2 i samme oppgavegruppe.
+Her skal du bruke IFML og WebRatio til å utvikle EXPO applikasjonen.
+Modeller og kode skal leveres under egen mappe i ditt Git repository.
